@@ -1,0 +1,15 @@
+{
+  "name": "motion-activated",
+  "version": "1.0.0",
+  "description": "A simple embedded project using **Arduino Uno** and **ESP32**, designed to trigger an alert when motion is detected. Ideal for learning basic sensor integration, alarm systems, and GPIO control.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
