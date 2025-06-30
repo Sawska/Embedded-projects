@@ -49,12 +49,17 @@ When motion or proximity is detected (closer than 24 cm), the **buzzer sounds** 
 
 ### 📸 Real Hardware Setup
 
-![Real hardware setup](https://github.com/user-attachments/assets/833fa088-cad5-470f-aed1-62f327abf71a)
+![image](https://github.com/user-attachments/assets/2def476c-1fe7-4111-8c95-f5d46bc559b0)
+
 
 ---
 
 ### 📸 Video
-https://github.com/user-attachments/assets/40860d75-fea5-45b0-9868-64e44c2d4465
+
+
+
+https://github.com/user-attachments/assets/5dff4163-5a94-4c26-81d2-3e2939967918
+
 
 ---
 
@@ -211,7 +216,8 @@ void loop() {
 
 #### 📸 Real Hardware Setup
 
-![image](https://github.com/user-attachments/assets/ef1b3bc7-2d90-47e1-af58-056bf9dcd3d8)
+![image](https://github.com/user-attachments/assets/b6cadccb-ca34-4e62-a12d-9202d7197229)
+
 
 
 ### 🧩 PIR motion sensor
@@ -248,13 +254,18 @@ void loop() {
 
 #### 📸 Real Hardware Setup
 
-![image](https://github.com/user-attachments/assets/964e966b-d848-453c-9a89-64ee4b033cf4)
+![image](https://github.com/user-attachments/assets/6cc3df45-6820-4b63-a945-65caf6131df2)
+
 
 #### 📸 Video
 
 
 
-https://github.com/user-attachments/assets/156c7091-b0f6-4a4f-859e-c925cedaf4ca
+
+https://github.com/user-attachments/assets/8653999c-3e98-472d-99a9-eff06f94bba3
+
+
+
 
 
 ## ESP32 implementation 
@@ -262,13 +273,16 @@ https://github.com/user-attachments/assets/156c7091-b0f6-4a4f-859e-c925cedaf4ca
 
 ### 📸 Real Hardware Setup
 
-![image](https://github.com/user-attachments/assets/7474aa3b-e7ef-4775-8573-40a6d1136e84)
+![image](https://github.com/user-attachments/assets/f66fc32b-a1b1-46c6-af7c-549cfc8e2d3b)
+
 
 ### 📸 Video
 
 
 
-https://github.com/user-attachments/assets/af440eb9-607c-4567-a873-e6d716f9c3a9
+
+https://github.com/user-attachments/assets/42995d28-3d5e-4cb0-acf3-51b91b22d82d
+
 
 
 ### 🧠 ESP32 code 
@@ -331,7 +345,7 @@ void loop() {
 * [x] Add IR remote to enable/disable the system.
 * [x] Replace distance sensor with PIR motion sensor (HC-SR501).
 * [x] Upload version for ESP32.
-* [ ] Add notification or logging feature (e.g., via Wi-Fi with ESP32).
+* [x] Add notification or logging feature (e.g., via Wi-Fi with ESP32).
 
 ---
 
