@@ -35,6 +35,9 @@ When motion is detected or an object is detected within **24 cm**, the **buzzer 
 
 ## 🧩 ESP32 Implementation
 
+
+<img width="656" alt="Screenshot 2025-06-28 at 21 24 26" src="https://github.com/user-attachments/assets/1a14e239-28d7-4523-912f-43f725c9644f" />
+
 ### 📸 Real Hardware Setup
 
 

@@ -121,6 +121,9 @@ void loop() {
 
 ### 🔗 **Wokwi Diagram**
 
+<img width="660" alt="Screenshot 2025-06-30 at 08 23 54" src="https://github.com/user-attachments/assets/3574f64c-7497-4369-9dbc-6c7272fc6885" />
+
+
 [🔌 View the Circuit in Wokwi](https://wokwi.com/projects/434760393490739201)
 
 
