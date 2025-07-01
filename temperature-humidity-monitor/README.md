@@ -44,6 +44,12 @@ This project reads **temperature**, **humidity**, and **soil moisture** data usi
 
 ---
 
+### 🧠  Wokwi Diagram
+
+partially not complete,due to the fact that Wokwi doens't provide needed sensors 
+<img width="466" alt="Screenshot 2025-07-01 at 13 39 46" src="https://github.com/user-attachments/assets/50ebab61-69fd-4474-827c-b63cddc0e0b8" />
+
+
 ### 🧾 Code Example (Arduino IDE for ESP32)
 
 ```cpp
