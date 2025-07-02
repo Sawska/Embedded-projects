@@ -127,3 +127,14 @@ void loop() {
 [🔌 View the Circuit in Wokwi](https://wokwi.com/projects/434760393490739201)
 
 
+###  **Real Hardware photo**
+
+![image](https://github.com/user-attachments/assets/568e5a6d-20fc-47e8-923a-a50a1be9d4eb)
+
+### **Real Hardware video**
+
+
+
+https://github.com/user-attachments/assets/7cc82535-a645-4ccf-9536-325950f7eab0
+
+
