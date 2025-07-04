@@ -40,11 +40,9 @@ When motion is detected or an object is detected within **24 cm**, the **buzzer 
 
 ### 📸 Real Hardware Setup
 
+![image](https://github.com/user-attachments/assets/7a684df7-714a-4014-a568-5babea1c06e8)
 
-
----
-
-### 🎥 Video Demonstration
+![image](https://github.com/user-attachments/assets/6b64fb09-a9b8-4620-bd51-f8082adc2e32)
 
 
 ---
@@ -119,6 +117,4 @@ void loop() {
 ```
 
 
----
 
-Let me know if you'd like a **Wokwi link**, **QR code**, or a badge for "Built with ESP32 + Arduino".
