@@ -170,10 +170,6 @@ void loop() {
 
 ---
 
-### 📈 Future Enhancements
-
-* ✅ Add joystick navigation instead of buttons
-* ✅ Include bitmap icons for each mode (temperature, humidity, soil)
-* ✅ Integrate Wi-Fi for remote data monitoring
-* ✅ Store readings on SD card for logging and graphing
+### Real photo
+![image](https://github.com/user-attachments/assets/eb087115-3b2d-4744-84a4-7d6216c81c7d)
 
