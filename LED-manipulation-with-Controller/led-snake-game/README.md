@@ -213,6 +213,10 @@ void resetGame() {
 
 ---
 
+## Hardware 
+![image](https://github.com/user-attachments/assets/e97b92f3-c2da-43d4-b143-265eed5633aa)
+
+
 ## 🧭 Circuit Diagram
 
 ![Circuit Diagram](https://github.com/user-attachments/assets/1d257cab-0710-4cf1-a127-42b07e872a3b)
