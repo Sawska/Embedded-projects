@@ -138,3 +138,7 @@ void loop() {
 https://github.com/user-attachments/assets/7cc82535-a645-4ccf-9536-325950f7eab0
 
 
+- used multimitter to get values 
+
+![image](https://github.com/user-attachments/assets/7db54eee-e9e7-4ed7-9507-af8407338f63)
+
