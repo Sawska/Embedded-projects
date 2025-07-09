@@ -350,3 +350,7 @@ void loop() {
 ---
 
 
+- used multimiter to get values
+![image](https://github.com/user-attachments/assets/33d77950-9391-411c-8f17-fbb5d9a4d692)
+
+
