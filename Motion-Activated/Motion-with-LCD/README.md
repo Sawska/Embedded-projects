@@ -116,5 +116,10 @@ void loop() {
 }
 ```
 
+### 🔧 PCB Design
+<img width="2162" height="1196" alt="Motion-with-LCD " src="https://github.com/user-attachments/assets/99b4d487-d051-43cf-84e3-ebf5bb913d48" />
+<img width="929" height="614" alt="Screenshot 2025-07-23 at 16 46 37" src="https://github.com/user-attachments/assets/0487e4ee-3565-4879-af75-1c4c511f0e2d" />
+
+
 
 
