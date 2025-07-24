@@ -142,3 +142,7 @@ https://github.com/user-attachments/assets/7cc82535-a645-4ccf-9536-325950f7eab0
 
 ![image](https://github.com/user-attachments/assets/7db54eee-e9e7-4ed7-9507-af8407338f63)
 
+
+### 🧠 **PCB Design**
+<img width="816" height="579" alt="Screenshot 2025-07-23 at 21 04 14" src="https://github.com/user-attachments/assets/8ae09b52-8455-4d35-9534-e6ae119842a2" />
+
