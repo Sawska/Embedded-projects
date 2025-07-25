@@ -226,6 +226,12 @@ Simulate the project live:
 
 ---
 
+## PCB Design
+<img width="801" height="565" alt="Screenshot 2025-07-25 at 15 49 54" src="https://github.com/user-attachments/assets/e2832485-d335-4812-8e7d-9201a0169318" />
+
+
+--
+
 ## 🧩 Future Improvements
 
 * Display score via Serial or OLED
