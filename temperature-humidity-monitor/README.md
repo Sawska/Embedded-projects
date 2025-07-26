@@ -173,3 +173,9 @@ void loop() {
 ### Real photo
 ![image](https://github.com/user-attachments/assets/eb087115-3b2d-4744-84a4-7d6216c81c7d)
 
+---
+
+### PCB DESIGN
+
+<img width="647" height="460" alt="Screenshot 2025-07-26 at 13 11 54" src="https://github.com/user-attachments/assets/a9694c1b-a072-4b36-a8ab-7aafa4d19d31" />
+
