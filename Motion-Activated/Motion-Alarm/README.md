@@ -338,6 +338,9 @@ void loop() {
 }
 ```
 
+### 🧠 PCB Design
+<img width="392" height="476" alt="Screenshot 2025-07-27 at 12 17 54" src="https://github.com/user-attachments/assets/faeb8699-6835-4b03-9d9d-5a4e4d3b587a" />
+
 
 
 ## 🧩 TODO / Extensions
