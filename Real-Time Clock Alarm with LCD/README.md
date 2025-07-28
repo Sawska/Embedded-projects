@@ -109,3 +109,7 @@ RTC_DS3231 rtc;
 * Add snooze button support
 * Support for 12/24-hour display toggle
 * Multi-alarm functionality
+
+
+## 🛠️ PCB Design
+<img width="693" height="525" alt="Screenshot 2025-07-28 at 07 56 25" src="https://github.com/user-attachments/assets/c5ea8391-ac06-4b29-81ef-5864f21fddfa" />
