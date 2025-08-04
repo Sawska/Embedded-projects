@@ -1,7 +1,3 @@
-Here’s an **enhanced version** of your README that’s cleaner, easier to read, and a bit more professional while keeping it practical:
-
----
-
 # 🔦 ESP32 LED Traffic Light Controller with Pedestrian Button
 
 ## 📌 Project Overview
