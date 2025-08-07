@@ -80,4 +80,44 @@ void setup() {
                       BLECharacteristic::PROPERTY_NOTIFY
                     );
 
-  pCharacterist
+  pCharacteristic->addDescriptor(new BLE2902());
+  pService->start();
+
+  // Start advertising
+  BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
+  pAdvertising->addServiceUUID(SERVICE_UUID);
+  pAdvertising->setScanResponse(true);
+  pAdvertising->start();
+
+  Serial.println("BLE Gas Sensor Beacon started. Open nRF Connect to view data.");
+}
+
+void loop() {
+  // Read gas sensor value
+  int gasValue = analogRead(GAS_SENSOR_PIN);
+
+  // Convert to string for BLE
+  char buffer[16];
+  snprintf(buffer, sizeof(buffer), "%d", gasValue);
+
+  // Send BLE notification
+  pCharacteristic->setValue((uint8_t*)buffer, strlen(buffer));
+  pCharacteristic->notify();
+
+  Serial.printf("Gas Level: %d\n", gasValue);
+
+  delay(2000); // Send every 2 seconds
+}
+```
+
+---
+
+## 📲 Viewing the Data
+
+1. Upload the code to your ESP32.
+2. Open **nRF Connect** (iOS/Android).
+3. Scan for `"ESP32 Gas Beacon"`.
+4. Connect → Locate the custom service → Enable **notifications**.
+5. Watch gas readings update in real time.
+
+---
