@@ -20,3 +20,4 @@ Switch between high-speed and low-speed clocks to save power in an ESP32 sensor 
 - Understanding MCU clock sources
     
 - Balancing speed vs. power consumption
+
