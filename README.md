@@ -1,33 +1,67 @@
-# 🔧 Embedded Projects Series
+### ESP32 Bluetooth Remote
+**Description:**  
+Create a Bluetooth remote to control LEDs or a robot wirelessly.
 
-Welcome to the **Embedded Projects Series** — a curated collection of hands-on embedded systems projects designed to demonstrate practical skills using microcontrollers, sensors, and displays.
+**BOM:**
 
----
+- ESP32
+    
+- LED or motor driver + motor
+    
+- Smartphone with Bluetooth terminal app
+    
 
-## 📋 Featured Projects
+**Scope Mapping:**
 
-* 🎯 **Motion-Activated Devices**
-  Detect motion using PIR sensors to trigger events such as lighting, sound, or alarms.
+- **Bluetooth:** Serial communication.
+    
+- **PWM:** LED brightness or motor speed.
 
-* 🎨 **LED Control with Input Devices**
-  Manipulate RGB or single-color LEDs using controllers like joysticks, buttons, or potentiometers.
+### Code
+```
+#include "BluetoothSerial.h" // Built-in ESP32 Bluetooth library
 
-* 🌡️ **Temperature & Humidity Monitor**
-  Display real-time environmental data using sensors (e.g., DHT11/DHT22) on an OLED screen.
+BluetoothSerial SerialBT;
 
-* ⏰ **RTC Alarm System with LCD & Relay**
-  Build a functional clock using an RTC module, set alarms, and control devices via relays and LCD output.
+const int ledPin = 5; // GPIO5
+int brightness = 0;   // PWM value (0-255)
 
----
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("ESP32_LED_REMOTE"); // Bluetooth device name
+  pinMode(ledPin, OUTPUT);
+  ledcAttachPin(ledPin, 0);           // Attach pin to channel 0
+  ledcSetup(0, 5000, 8);              // 5kHz PWM, 8-bit resolution
+  Serial.println("Bluetooth device is ready to pair");
+}
 
-## 🧠 Skills Demonstrated
+void loop() {
+  if (SerialBT.available()) {
+    char command = SerialBT.read();
 
-* Sensor integration (PIR, DHT, RTC)
-* Display interfacing (OLED, LCD)
-* Digital I/O and interrupt handling
-* PWM, ADC, and basic electronics
-* Embedded C/C++ development with platforms like Arduino & ESP32
+    switch (command) {
+      case '0' ... '9':
+        // Map '0' to brightness 0, '9' to 255
+        brightness = map(command - '0', 0, 9, 0, 255);
+        ledcWrite(0, brightness);
+        SerialBT.print("Set brightness to: ");
+        SerialBT.println(brightness);
+        break;
 
+      case 'x':
+        ledcWrite(0, 0); // Turn off LED
+        SerialBT.println("LED turned OFF");
+        break;
 
+      case 'f':
+        ledcWrite(0, 255); // Full brightness
+        SerialBT.println("LED at FULL brightness");
+        break;
 
-
+      default:
+        SerialBT.println("Unknown command");
+        break;
+    }
+  }
+}
+```
